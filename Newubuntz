@@ -1,0 +1,10 @@
+pkg install update && upgrade
+apt install git
+apt install wget
+apt install proot
+termux-setup-storage
+git clone https://github.com/Neo-Oli/termux-ubuntu
+cd termux-ubuntu
+chmod +x ubuntu.sh
+sh ubuntu.sh
+./start-ubuntu.sh
